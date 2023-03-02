@@ -35,7 +35,7 @@ This creates a new node with the label "SensorReading" and the specified propert
 ```
 from neo4j import GraphDatabase
   
-driver = GraphDatabase.driver("neo4j+s://c9fafc6e.databases.neo4j.io", auth=("neo4j", "OgIO99y7E6vqoWW2j_S64DLz4wtkdQQ6JV90zHrJsTY"))
+driver = GraphDatabase.driver("neo4j+s://c9fafc6e.databases.neo4j.io", auth=("neo4j", "OgIO99y7E6vxXXXXXXXXXXHrJsTY"))
 
 with driver.session() as session:
     session.run("CREATE (:SensorReading {sensor_id: 'sensor1', timestamp: datetime(), value: 23.4})")
