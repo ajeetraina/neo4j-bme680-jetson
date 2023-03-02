@@ -4,7 +4,7 @@ import random
 
 # Set up the Neo4j driver
 uri = "neo4j+s://c9fafc6e.databases.neo4j.io"
-driver = GraphDatabase.driver(uri, auth=("neo4j", "OgIO99y7E6vqoWW2j_S64DLz4wtkdQQ6JV90zHrJsTY"))
+driver = GraphDatabase.driver(uri, auth=("neo4j", "OgXXXXJsTY"))
 
 # Define a function to generate random sensor data
 def generate_sensor_data():
