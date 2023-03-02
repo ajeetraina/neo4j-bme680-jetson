@@ -22,7 +22,12 @@ AURA_INSTANCENAME=Instance01
 pip install neo4j
 ```
 
-## Python Script
+## A Sample Python Script for Sensors
+
+This creates a new node with the label "SensorReading" and the specified properties. You can then query the database to retrieve sensor data and perform analysis or visualization.
+
+
+
 
 ```
 from neo4j import GraphDatabase
@@ -34,6 +39,9 @@ with driver.session() as session:
 ```
 
 ## Running the Script
+
+For this demonstration, I shall be using all the sensor values.
+This script generates random values for temperature, humidity, pressure, and gas using the random library, and then inserts these values into Neo4j along with a timestamp. You can modify the ranges for the random values by changing the arguments to random.uniform() as needed.
 
 ```
 python3 script.py
