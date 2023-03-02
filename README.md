@@ -5,6 +5,7 @@
 
 - Create a Neo4j hosted instance
 - Jetson Nano with BME680 sensor
+- Docker Desktop enabled with Extensions
 
 
 <img width="1506" alt="image" src="https://user-images.githubusercontent.com/313480/222403946-b3680e55-bc6c-47f2-9c0f-6c5534634e77.png">
@@ -17,6 +18,8 @@ AURA_INSTANCENAME=Instance01
 ```
 
 ## Importing neo4j
+
+Run the following command on NVIDIA Jetson Nano
 
 ```
 pip install neo4j
